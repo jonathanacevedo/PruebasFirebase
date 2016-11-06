@@ -1,0 +1,17 @@
+
+
+
+https://gist.github.com/lnikkila/d9493a0626e89059c6aa
+
+
+Hay que sobreescribir varios métodos, necesitamos el objeto de la clase RecyclerView que es el que estamos poblando con los mensajes.
+
+el método que necesitamos es este:
+
+    @Override
+    public void onItemLongPress(View childView, int position) {
+        // Do another thing when an item is long pressed.
+    }
+    
+    
+    Long Press significa cuando uno lo deja apretado un rato, ahí escribiriamos el código para iniciar el privado con tal persona.
